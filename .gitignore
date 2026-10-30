@@ -1,0 +1,52 @@
+# ---- Keil MDK 编译输出 ----
+**/MDK-ARM/X001/
+**/MDK-ARM/Objects/
+**/MDK-ARM/Listings/
+**/MDK-ARM/*/*.o
+**/MDK-ARM/*/*.d
+**/MDK-ARM/*/*.crf
+**/MDK-ARM/*/*.axf
+**/MDK-ARM/*/*.map
+**/MDK-ARM/*/*.lnp
+**/MDK-ARM/*/*.sct
+**/MDK-ARM/*/*.dep
+**/MDK-ARM/*/*.lst
+**/MDK-ARM/*.uvguix.*
+
+# ---- IAR EWARM 编译输出 ----
+**/EWARM/Debug/
+**/EWARM/Release/
+**/EWARM/settings/
+**/EWARM/*/Obj/
+**/EWARM/*/Exe/
+**/EWARM/*/List/
+
+# ---- 通用编译产物 ----
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.out
+*.map
+*.lnp
+*.sct
+*.dep
+*.lst
+*.hex
+*.bin
+*.build_log.htm
+
+# ---- 备份文件 ----
+*.bak
+*.orig
+*~
+
+# ---- 操作系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
